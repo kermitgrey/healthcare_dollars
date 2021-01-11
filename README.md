@@ -29,13 +29,13 @@ everything necessary to support the data analysis:</p>
 <li>Use sqlloader to upload the data using each
    of the *.ctl files. </li>
 
-<li>execute the .sql script to create the staging table index.</li>
+<li>Execute the .sql script to create the staging table index.</li>
 
-<li>execute procedure pay_create_doctors: this populates
+<li>Execute procedure pay_create_doctors: this populates
    the pay_doctors table with information on physicians
    staged in the pay_doctors_load table.</li>
 
-<li>execute procedure pay_create_pay_types: this populates
+<li>Execute procedure pay_create_pay_types: this populates
    the pay_pay_types table which contains the 15 dimensions 
    that describes the nature of each payment made.  It
    reads the staging table pay_payments_load and 
@@ -44,15 +44,15 @@ everything necessary to support the data analysis:</p>
    After execution, manually update the 'newpaytype' 
    field using a pay type description of choice.</li>
 
-<li>execute procedure pay_create_payors: this fills the pay_payors
+<li>Execute procedure pay_create_payors: this fills the pay_payors
    table holding the companies making payments.  It uses 
    the data in the staging table pay_payments_load.</li>
 
-<li>execute procedure pay_create_payments: this builds summary payments
+<li>Execute procedure pay_create_payments: this builds summary payments
    data using the data in the pay_payments_load table 
    and stores it in the table pay_payments.</li>
 
-<li>execute procedure pay_update_payor_bins and pay_update_doctor_bins:
+<li>Execute procedure pay_update_payor_bins and pay_update_doctor_bins:
    Each of these assigns a bin label to a payor or doctor
    based on their cumulative payment sums and updates the
    pay_payors and pay_doctors tables respectively.</li>
