@@ -6,7 +6,7 @@
 track any payments (or transfers-of-value) that arise between pharmaceutical 
 companies (and others) and physicians. CMS makes the raw data available to the 
 public on its website for those interested in making use of it.  I have utilized a 
-subset of CMS' data and prepared an analysis that describes the nature of 
+subset of the CMS data and prepared an analysis that describes the nature of 
 those financial relationships.</p>
 
 <p>This repo contains the code used to create the needed schema objects
