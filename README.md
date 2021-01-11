@@ -11,7 +11,7 @@ those financial relationships.</p>
 
 <p>This repo contains the code used to create the needed schema objects
 that supported my analysis using an Oracle 12c database.  Here you will find 
-the following</p>
+the following:</p>
 
 <ul>
 <li> ddl to create the necessary tables and indexes.</li>
