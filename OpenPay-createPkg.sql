@@ -232,8 +232,7 @@ END pay_create_pay_types;
 /***********************************************************************************
 ** Use a cursor to assign a group_bin label to every company. The group_bin serves
 ** to group the companies based on total $ spent provided in the pay_payments table.
-** The pay intervals are set in the cursor definition.  The cursor result is used to update
-** the pay_payors table.
+** The cursor result is used to update the pay_payors table.
 **
 ***********************************************************************************/
 PROCEDURE pay_update_payor_bins
@@ -281,8 +280,7 @@ END pay_update_payor_bins;
 /***********************************************************************************
 ** Use a cursor to assign a group_bin label to every doctor. The group_bin serves
 ** to group the doctors based on total $ amounts provided in the pay_payments table.
-** The group intervals are set in the cursor definition.  The cursor result is used to update
-** the pay_doctors table.
+** The cursor result is used to update the pay_doctors table.
 **
 ***********************************************************************************/
 PROCEDURE pay_update_doctor_bins
@@ -328,8 +326,8 @@ EXCEPTION
 END pay_update_doctor_bins;
 
 /*************************************************************************
-* Fcn accepts a name in transforms into into proper format looking for 
-* any existing spaces and hyphens  to output the proper format
+* Fcn accepts a name in and transforms it into proper a format looking for 
+* any existing spaces and hyphens to output the proper format.
 **************************************************************************/
 FUNCTION pay_get_doctor_name(namein IN VARCHAR2)
     RETURN VARCHAR2
