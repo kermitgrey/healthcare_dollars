@@ -7,7 +7,8 @@ track any payments (or transfers-of-value) that arise between pharmaceutical
 companies (and others) and physicians. CMS makes the raw data available to the 
 public on its website for those interested in making use of it.  I have utilized a 
 subset of the CMS data and prepared an analysis that describes the nature of 
-those financial relationships.</p>
+those financial relationships.  You can read the analysis at 
+<link> https://www.prontezza.com/healthcare-dollars</link>.</p>
 
 <p>This repo contains the code used to create the needed schema objects
 that supported my analysis using an Oracle 12c database.  Here you will find 
