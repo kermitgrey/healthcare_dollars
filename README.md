@@ -59,7 +59,7 @@ everything necessary to support the data analysis:</p>
    pay_payors and pay_doctors tables respectively.</li>
 </ol>
 
-<p>The source data files used in the analysis can be dowloaded from their respective website source:</p>
+<p>The source data files used in the analysis can be downloaded from their respective website source:</p>
 
 <ul>
 <li>General Payments Detail data for 2016-2019 and the Physician Profile
