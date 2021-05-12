@@ -37,7 +37,7 @@ everything necessary to support the data analysis:</p>
    staged in the pay_doctors_load table.</li>
 
 <li>Execute procedure pay_create_pay_types: this populates
-   the pay_pay_types table which contains the 15 dimensions 
+   the pay_pay_types table which contains the 15 categories 
    that describes the nature of each payment made.  It
    reads the staging table pay_payments_load and 
    serves as a look-up table to relate an old pay
