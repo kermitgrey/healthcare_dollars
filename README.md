@@ -16,8 +16,8 @@ the following:</p>
 
 <ul>
 <li> ddl to create the necessary tables and indexes.</li>
-<li> sql loader code to load the data into the database.</li>
-<li> PL/SQL package needed to process the data and load it into the destination tables.</li> 
+<li> sql loader code to load the data into the database tables.</li>
+<li> PL/SQL package needed to process the data in the staging tables and load it into the destination tables.</li> 
 </ul>
 
 <p> The following steps outline the process followed to build
