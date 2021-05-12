@@ -70,5 +70,5 @@ Committee at <link> https://nucc.org/index.php/code-sets-mainmenu-41/provider-ta
 </ul>
 
 <p>The only other file used in the analysis is the United States state code file and 
-that is provided here in the repo (statefips.csv).</p>
+that is provided here in the repo (CensusBureau-US-States.txt).</p>
 
